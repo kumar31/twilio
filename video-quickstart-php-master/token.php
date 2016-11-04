@@ -21,8 +21,8 @@ $token = new AccessToken(
     3600, 
     $identity
 );
-echo $identity;
-print_r($token); die;
+//echo $identity;
+//print_r($token); die;
 // Grant access to Video
 $grant = new VideoGrant();
 $grant->setConfigurationProfileSid($TWILIO_CONFIGURATION_SID);
