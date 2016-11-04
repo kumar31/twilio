@@ -10,7 +10,8 @@ use Twilio\Jwt\Grants\VideoGrant;
 $appName = 'TwilioVideoDemo';
 
 // choose a random username for the connecting user
-$identity = randomUsername();
+//$identity = randomUsername();
+$identity = 'test-user';
 
 // Create access token, which we will serialize and send to the client
 $token = new AccessToken(
